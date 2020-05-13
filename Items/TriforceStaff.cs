@@ -15,8 +15,8 @@ namespace CoolMusicBoxes.Items
 
         public override void SetDefaults()
         {
-            item.width = 20;
-            item.height = 20;
+            item.width = 33;
+            item.height = 33;
             item.maxStack = 1;
             item.value = 10000;
             item.rare = 1;
@@ -28,9 +28,10 @@ namespace CoolMusicBoxes.Items
             item.magic = true;
             item.UseSound = SoundID.Item20;
             item.useAnimation = 2;
-            item.damage = 250000;
+            item.damage = 350000;
             item.knockBack = 5; 
             item.mana = 75;
+            item.holdStyle = 2; 
             // Set other item.X values here
         }
 
