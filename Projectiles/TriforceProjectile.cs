@@ -24,8 +24,19 @@ namespace CoolMusicBoxes.Projectiles
 			projectile.height = 100;
 			projectile.aiStyle = 118;
 			projectile.friendly = true;
+			projectile.tileCollide = false;
 			//aiType = ProjectileID.NebulaArcanum;
 		}
+		
+		public override void OnHitNPC (NPC target, int damage, float knockback, bool crit) {
+			Projectile.NewProjectile(projectile.position.X, projectile.position.Y, 0, 0, 296, (int)(25), projectile.knockBack, Main.myPlayer);
+		}
+		public override bool TileCollideStyle (ref int width, ref int height, ref bool fallThrough){
+			width = 40;
+			height = 40;
+			fallThrough = true;
+			return true;
+		}	
 		public override void AI() {
 			if (projectile.alpha > 70) {
 				projectile.alpha -= 15;

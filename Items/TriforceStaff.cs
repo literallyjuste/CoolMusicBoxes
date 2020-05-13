@@ -28,7 +28,7 @@ namespace CoolMusicBoxes.Items
             item.magic = true;
             item.UseSound = SoundID.Item20;
             item.useAnimation = 2;
-            item.damage = 11000;
+            item.damage = 250000;
             item.knockBack = 5; 
             item.mana = 75;
             // Set other item.X values here

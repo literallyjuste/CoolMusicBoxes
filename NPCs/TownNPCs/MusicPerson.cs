@@ -57,7 +57,7 @@ namespace CoolMusicBoxes.NPCs            //We need this to basically indicate th
                 case 2:
                     return "literallyjuste";
                 case 3:
-                    return "NotPinkCost";
+                    return "NotPinkOnlyCost";
                 case 4:
                     return "Kat";
                 case 5:
