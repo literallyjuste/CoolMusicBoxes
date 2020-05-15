@@ -21,6 +21,7 @@ namespace CoolMusicBoxes
 		public CoolMusicBoxes() {
 
 		}
+		//throwaway line
 		public override void Load() {
 			if (!Main.dedServ) {
 				AddMusicBox(GetSoundSlot(SoundType.Music, "Sounds/Music/CodeVeinDream"), ItemType("CodeVeinDreamInv"), TileType("CodeVeinDreamPlaced"));
