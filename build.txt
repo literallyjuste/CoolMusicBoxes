@@ -1,3 +1,4 @@
 displayName = Cool Music Boxes
 author = literallyjuste & Cost6654
 version = 0.97
+homepage = https://literallyjuste.github.io/dancinganimegirls/Coolmusicboxes.html
