@@ -1,3 +1,3 @@
 displayName = Cool Music Boxes
 author = literallyjuste & Cost6654
-version = 0.96
+version = 0.97
