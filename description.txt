@@ -1,3 +1,5 @@
 Adds a couple of Music Boxes with epic music from popular video games.
+We also have a new TownNPC(Post-moonlord), a wand and a very overpowered buff.
 
-Craft each with 1 dirt on an anvil.
+
+Most items are currently craftable with 1 dirt on an anvil, but that will change soon.

@@ -94,6 +94,10 @@ namespace CoolMusicBoxes.NPCs            //We need this to basically indicate th
             nextSlot++;
             shop.item[nextSlot].SetDefaults(mod.ItemType("UndertaleDatingStartInv"));
             nextSlot++;
+            shop.item[nextSlot].SetDefaults(mod.ItemType("DrPeppercanEmpty"));
+            nextSlot++;
+            shop.item[nextSlot].SetDefaults(ItemID.TargetDummy);
+            nextSlot++;
             shop.item[nextSlot].SetDefaults(ItemID.CatEars);
             nextSlot++;
         }
